@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import java.time.LocalDateTime;
 
 @Entity
-public class notificationTtask {
+public class NotificationTtask {
 
     @Id
     @GeneratedValue
@@ -15,7 +15,7 @@ public class notificationTtask {
     private String message;
     private LocalDateTime dateSend;
 
-    public notificationTtask(){
+    public NotificationTtask(){
 
     }
 

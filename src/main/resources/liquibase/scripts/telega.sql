@@ -1,5 +1,6 @@
 -- liquibase formatted sql
-CREATE TABLE IF NOT EXISTS public.notification_task
+//-- changeset TelegaBase:1
+CREATE TABLE notification_task
 (
     id integer
     , chatid integer
